@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+::-webkit-scrollbar{
+   width: 1.3rem;
+ }
+ 
+ ::-webkit-scrollbar-track{
+   background-color: #cec0b8;
+ }
+ ::-webkit-scrollbar-thumb{
+   background-color: #323232;
+   border-radius: 1rem;
+   border: 0.3rem solid transparent;
+   background-clip: content-box;
+ }
+
+ body{
+  font-family: "Poppins" ;
+  background-color: #fdefe1 !important;
+}
+
+.navBoxTwo{box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   border-radius: 100px;
+}
+
+.blogBox{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.commentz{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 10px;
+  background-color: #f0ece9;
+}
