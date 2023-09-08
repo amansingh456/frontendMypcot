@@ -25,7 +25,7 @@ const Signup = () => {
     else{
       try {
         const { data } = await axios.post(
-          "https://cute-rose-quail-robe.cyclic.appapi/register",
+          "https://cute-rose-quail-robe.cyclic.app/api/register",
           obj
         );
         toast({
